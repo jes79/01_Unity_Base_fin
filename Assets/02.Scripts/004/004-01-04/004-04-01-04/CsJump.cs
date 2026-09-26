@@ -17,7 +17,7 @@ public class CsJump : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
 
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 10, 0);
+            GetComponent<Rigidbody>().linearVelocity = new Vector3(0, 10, 0);
         }
     }
 }

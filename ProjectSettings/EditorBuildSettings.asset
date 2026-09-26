@@ -4,5 +4,194 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-01_01_Move.unity
+    guid: 2bdb6c21a1fe93f46a90711b54d27e52
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-01_02_Move2.unity
+    guid: ce484261912273d49b02ea73809cd666
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-02_01_Rotate01.unity
+    guid: 5a255704acdc7e24f844d7711169663b
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-02_02_Rotate02.unity
+    guid: ac6bfca15d70d15418ffc939eff8123f
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-02_03_exercise.unity
+    guid: 05def37c8801554499241416545b91c4
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-02_04_exercise2.unity
+    guid: 26f04fa9ca5e2264faed7448cdd85430
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-03_01_Idendtity.unity
+    guid: 2c8fe9112c66f1e4d90bd1d2228a62dc
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-03_02_Idendtity.unity
+    guid: 1753e000082d548488e87ac3b7faaa45
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-04_01_Throw.unity
+    guid: bb375da351c8ae240b9fa0ec2f436cf2
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-04_02_Jump.unity
+    guid: 6b608d48f01db054ab38c6816d007ead
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-04_03_Jump2.unity
+    guid: e16486d7ee6c8214b9ac68a24b890fda
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-04_04_Jump3.unity
+    guid: 284b83349fb1e0b49a9415fd56ee9a7c
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-04_05_LookAt.unity
+    guid: c4871442f2a725749b3e58cd61f60b43
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-04_06_RotateAround.unity
+    guid: 48704b3ffda18f8438dc0818f766c9d0
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-05_01_Collision.unity
+    guid: 5562beac28c5d8d41b95a015e936550f
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-05_02_Trigger.unity
+    guid: 1c3bb94fa4c3cfc44b84cd7fbd2efe25
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-05_03_Kinematic.unity
+    guid: ed63a4e5c89036349a57553407d49762
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-06-01_CharacterController.unity
+    guid: 44ea3f8fcf9068544be662a22a408a94
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-06-02_ControllerColliderHIt.unity
+    guid: e35fb2edf27acc64f9128a1a96d47279
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-07-01_Play.unity
+    guid: c2c16da492cb78b4cafffe89a6b4e49d
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-07-02_PlayOneShot.unity
+    guid: 843116bfe8b0e634da7ea2ce34da7037
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-07-03_WhenDestroyPlay.unity
+    guid: fcfd2937b421a9c4c9f70f9399488af9
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-07-04_DestroyDelayed.unity
+    guid: 94275e76afe87cc4b9eb61b2e74eaf27
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-07-05_CsAudioManager.unity
+    guid: e53f03f9df697224286c2493240b6f70
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-07-06_Check3DSound.unity
+    guid: 3da1e4384802411449addc3157b1449b
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-07-07_PlayClipAtPoint.unity
+    guid: 6177513b398cc7a4c9e6c019724830ec
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-08-01_MainCamera.unity
+    guid: 7df18206d5a9c244eb4caeb9fbd028ad
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-08-02_SmoothFollow.unity
+    guid: cfc8757e006f3d04e9be4910ff760281
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-08-03_MouseLook.unity
+    guid: 5e98af520be61d34aa20ba7c5f15025e
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-09_SkyBox.unity
+    guid: 3fd69cee22affbb44ba0181fa7d6b2e2
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-10_Prefab.unity
+    guid: baa8a206b29ea7044bfc6aefa0acbe95
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-11_Particles.unity
+    guid: afa04230e2ea8304f8fa451e63838d96
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-12-01_RayCast.unity
+    guid: 27bcb539ff191d34fb2e529601daa2ca
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-12-02_RaycastLookEnemy.unity
+    guid: a384a9d767890384b8d50a07575174a8
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-12-03_ScreenPointToRay.unity
+    guid: 0ec24167adcd672449f14a514826dc7a
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-13-01_Distance.unity
+    guid: d260dada440affb49ac5bffa650e236a
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-13-02_Random.unity
+    guid: ab2c236751b95cf40b83a633e0b44ecb
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-13-02-01_Random-gacha.unity
+    guid: df90bb3ca1a0524458563743f2b775b9
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-13-03_Find.unity
+    guid: 8034ac7c8d56ad341b4a24ed8c081c8a
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-14_Coroutine.unity
+    guid: 9f2f6948dc5ba8a4e8ce85143c53367c
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-15-01_LoadScene.unity
+    guid: d0e7fbdda6c66e2429e693d5876c124f
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-15-02_LoadScene.unity
+    guid: e666157540d1ae8459e37a12defa039d
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-16_methodCall.unity
+    guid: bd257d03c414859458939b3385bba307
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-17_PlayerPrefs.unity
+    guid: 63dcf91704c9b53449295de0c44e10c3
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-01_Text.unity
+    guid: b3369636abcacfb48a620b1af4bf1dbe
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-02_Button.unity
+    guid: 7ed4ada5ce5a9fd4c83772c0be9969f1
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-03-01_Toggle.unity
+    guid: a9ff2ec00d569d049a8c48a5c558ba48
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-03-02_ToggleGroup.unity
+    guid: e6577e301a5870c4a9a44f09a1992959
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-04_Slider.unity
+    guid: 4627b70a69c029542b29755d23379ab9
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-05_SliderGauge.unity
+    guid: c5545915cafd8414ebadab7209aee940
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-06_InputField.unity
+    guid: 1d9670cb83f94654b8df06a7a1f041c5
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-07_ScrollView.unity
+    guid: d73853badbb98b84faed106a8c6c7aae
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-08_Dropdown01.unity
+    guid: fa6693d1790e43b48b50dfd8327b98b4
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-18-08_Dropdown02.unity
+    guid: a7954ad16c8454840a3bba712c1b6ec0
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-19-01_Model01.unity
+    guid: d78ec0a7ed1f22244b96ad4d35198470
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-19-02_Model02.unity
+    guid: d294cd39e6fe11d43a069751684deea9
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-20-01_GenericAnimation01.unity
+    guid: b891c3e8388fba143850b8a619410ac9
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-20-01_GenericAnimation02.unity
+    guid: 106b60db9b300af4ca8edcc3e7bd5bfe
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-20-02_Mecanim01.unity
+    guid: 90f0dfb5c5b04eb43ba2b1cabb1d1bae
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-20-02_Mecanim02.unity
+    guid: 0e948bbb1b690bc4ebbd48a338c5e167
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-21-01_TitleScreen.unity
+    guid: 61db9528aaf4cee4d92a13efc3cd366a
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-21-02_KeyFrameAnimation.unity
+    guid: b8f5109072a70a94bb5715bdea89d57d
+  - enabled: 1
+    path: Assets/01.Scenes/004/004-21-03_KeyFrameAnimation.unity
+    guid: 313f05a0a39fa3243876c8c234aca1ba
   m_configObjects: {}

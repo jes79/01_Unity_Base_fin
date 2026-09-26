@@ -15,26 +15,26 @@ public class JumpPower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // PC ¹öÆ°(Jump : Space) À» ´©¸¦¶§ ÇÑ¹ø True
+        // PC ï¿½ï¿½Æ°(Jump : Space) ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¹ï¿½ True
       
         if (Input.GetButtonDown("Jump"))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
+            GetComponent<Rigidbody>().linearVelocity = new Vector3(0, jumpPower, 0);
         }
        
-        // ¸ð¹ÙÀÏ ÅÍÄ¡ (Â÷ÈÄ Á¤¸®)
-        // ÅÍÄ¡ È½¼ö | Æ¯Á¤ÇÑ ÅÍÄ¡ÀÇ »óÅÂ¸¦ ³ªÅ¸³»´Â ¿ÀºêÁ§Æ®¸¦ ¹ÝÈ¯ : È­¸é¿¡ ÅÍÄ¡°¡ ½ÃÀÛµÈ »óÅÂ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ (ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
+        // ï¿½ï¿½Ä¡ È½ï¿½ï¿½ | Æ¯ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½Â¸ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È¯ : È­ï¿½é¿¡ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½Ûµï¿½ ï¿½ï¿½ï¿½ï¿½
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
+            GetComponent<Rigidbody>().linearVelocity = new Vector3(0, jumpPower, 0);
         }
     }
 
 
     private void OnCollisionEnter(Collision collision)
     {
-        //¾À ÀüÈ¯ using UnityEngine.SceneManagement; ("¾ÀÀÌ¸§")
-        //Build ÇÊ¿ä
+        //ï¿½ï¿½ ï¿½ï¿½È¯ using UnityEngine.SceneManagement; ("ï¿½ï¿½ï¿½Ì¸ï¿½")
+        //Build ï¿½Ê¿ï¿½
         SceneManager.LoadScene("003-1_FlappyBird_Build");
     }
 }

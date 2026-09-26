@@ -4,7 +4,7 @@ Unity 핵심 기능을 작은 장면 단위로 확인하는 학습용 프로젝�
 
 ## 빠른 시작
 
-- **Unity 버전:** `2020.3.8f1` (프로젝트 원본 기준)
+- **Unity 버전:** `6000.3.22f1` (Unity 6.3 기준)
 - **권장 흐름:** [학습 경로](docs/learning-path.md) → [장면 카탈로그](docs/scene-catalog.md)
 - Unity Hub에서 프로젝트를 추가한 뒤 위 버전으로 엽니다.
 - `Assets/01.Scenes/004`에서 원하는 실습 장면을 열고 Play를 눌러 결과를 확인합니다.
@@ -28,5 +28,4 @@ Unity 핵심 기능을 작은 장면 단위로 확인하는 학습용 프로젝�
 
 ## GitHub Wiki
 
-Wiki 페이지 원본은 [wiki/](wiki/)에 있습니다. GitHub 저장소의 Wiki를 활성화한 뒤 wiki/Home.md를 Home.md로 게시하면 됩니다.
-
+[GitHub Wiki](https://github.com/jes79/01_Unity_Base_fin/wiki) · [Unity 6 전환 기록](docs/unity6-migration.md)

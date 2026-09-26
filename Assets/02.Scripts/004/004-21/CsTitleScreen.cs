@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class CsTitleScreen : MonoBehaviour
 {
 
+    [SerializeField] private string nextSceneName = "004-21-02_KeyFrameAnimation";
     Quaternion orignalRot;
 
     // Start is called before the first frame update
@@ -30,7 +31,10 @@ public class CsTitleScreen : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            SceneManager.LoadScene("æ¿ ¿Ã∏ß");
+            if (Application.CanStreamedLevelBeLoaded(nextSceneName))
+                SceneManager.LoadScene(nextSceneName);
+            else
+                Debug.LogError("Add the target scene to Build Profiles: " + nextSceneName, this);
         }
 
     }
